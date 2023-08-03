@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dadosfera</title>
+</head>
+<body>
+  <h2>Case 1 </h2>
+  <p>Para implementar uma análise de dados eficiente para rastrear a satisfacao do cliente e a eficiencia da equipe de suporte ao produto na plataforma Dadosfera, eu iria definir alguns que irei citar abaixo:
+
+  1. Definir objetivos: Antes de comecar a coleta de dados, iria definir objetivos claros para análise. Encontrando a melhor maneira de medir a satisfacao do cliente e a eficiencia da equipe de suporte, identificar áreas de melhoria no suporte ao produto, aumentar a eficiencia da equipe, entre outros.
+
+  2. Identificar as fontes de dados: Com base nas solucoes de service desk pretende se integrar como os citados (Hubspot Service, Zendesk, ServiceNow, Drift e Intercom), identificar quais dados podem ser coletados de cada plataforma. Como por exemplo registros de tickets, interaoces de chat, historico de chamadas, feedback do cliente, etc.
+
+  3. Analisar os dados: Utilizar as ferramentas de análise de dados disponiveis na plataforma da Dadosfera para explorar os dados coletados e obter insights relevantes. Por exemplo, criar gráficos de tendencias, analisar a distribuicao de satisfacao do cliente.
+
+  4. Coletar dados relevantes como por exemplo: 
+     - Numero total de tickets abertos e fechados;
+     - Tempo medio de resposta;
+     - Tempo medio de resolucao de tickets;
+     - Numero de interacoes de chat por agente;
+     - Nivel de satisfacao do cliente;
+     - Feedback do cliente.
+
+  5. Limpar e preparar os dados: Antes de realizar a análise, e fundamental limpar e preparar os dados para garantir sua qualidade e consistencia. Isso pode envolver remover dados duplicados, preencher lacunas, normalizar formatos, etc.
+
+  6. Realizar acoes corretivas: Com base nos insights obtidos na análise de dados, tomar medidas para melhorar a satisfacao do cliente e a eficiencia da equipe de suporte ao produto. 
+  7. Acompanhar os resultados: Avaliar regularmente os resultados das acoes implementadas e faca ajustes conforme necessário para garantir continua melhoria no suporte ao produto.</p>
+  
+<h2> Case 2</h2>
+
+<p>Para garantir uma transição suave e eficiente durante o upgrade da plataforma da Dadosfera, podemos seguir algumas etapas organizacionais e de implementação:
+1. Planejamento
+2. Escolha da Plataforma e Fornecedores
+3. Configuração e Testes em Ambiente de Desenvolvimento
+4. Implementação em Fases
+5. Comunicação e Treinamento
+6. Monitoramento e Suporte Contínuo
+7. Backups e Contingências
+8. Avaliação e Melhoria Contínua:
+Seguindo essas etapas, podemos garantir uma transição suave e eficiente para a nova plataforma de gerenciamento de diretório em nuvem com MDM, SSO e recursos de ciclo de vida do usuário na Dadosfera. Isso auxiliara a maximizar os benefícios da plataforma e minimizar qualquer impacto negativo para a equipe e os usuários finais.</p>
+
+<h2>Case 3 </h2>
+<p>A implementacao da gestao de acesso na plataforma Dadosfera pode ser realizada atraves das seguintes praticas inovadoras:
+ 
+ 1.Autenticacao de dois fatores : Implementar a autenticacao de dois fatores em todas as contas de usuario da plataforma Dadosfera. 
+ 
+ 2. Single Sign-On (SSO): Integrar a plataforma Dadosfera com uma solucao de SSO que permita aos usuarios acessarem as ferramentas e aplicativos relacionados sem precisar fazer login separadamente em cada um deles. 
+ 3. Politicas de acesso baseadas em funcao (RBAC): Implementar um modelo de controle de acesso baseado em funcao, onde cada usuario recebe permissoes especificas de acordo com sua funcao e responsabilidades na empresa. 
+ 4. Analise de comportamento do usuario (UBA): Utilizar ferramentas de analise de comportamento do usuario para monitorar atividades incomuns ou suspeitas. 
+ 5. Monitoramento em tempo real: Implementar um sistema de monitoramento em tempo real para detectar e responder rapidamente a eventos de seguranca. Isso inclui o monitoramento de logs de acesso, tentativas de autenticacao mal sucedidas e outras atividades suspeitas.
+ 6. gestao automatizada de ciclo de vida do usuario: Utilizar ferramentas de gestao de ciclo de vida do usuario para automatizar o processo de criacao, modificacao e exclusao de contas de usuario. Isso garante que os direitos de acesso sejam concedidos e revogados de acordo com as mudanças nas funcoes e status dos funcionarios.
+ 7. Controle de acesso contextual: Integre informacoes contextuais na gestao de acesso, como localizacao geografica, dispositivo utilizado e nivel de segurança da rede. Isso permite ajustar as permissoes de acesso com base na situacao especifica do usuario.
+ 8. Testes de penetracao: Realizar testes de penetracao para avaliar a seguranca da plataforma Dadosfera e identificar possíveis vulnerabilidades ou brechas de segurança.
+ 9. Resposta a incidentes: Ter um plano de resposta a incidentes bem definido para lidar com violacoes de segurança ou tentativas de acesso nao autorizado.</p>
+
+<h2>Case 4</h2>
+<p>Para implementar a ferramenta de chatbot AI na Dadosfera e melhorar a satisfação e o envolvimento do cliente, iremos seguir estas etapas:
+
+1. Identificar objetivos
+2. Escolher uma plataforma de chatbot 
+3. Treinamento do chatbot 
+4. Testar e iterar
+5. Implantação
+6. Monitorar e melhorar
+7. Treinamento da equipe de suporte</p>
+
+<h2>Case 5 </h2>
+   <p> \```sql
+   
+   SELECT *
+   
+   FROM users_emails
+   
+   WHERE data_cadastro >= DATE_SUB(CURDATE(), INTERVAL "7 DAY");
+   
+   \```
+   
+   Explicação:
+   
+   1. `SELECT *`: Especifica que todas as colunas da tabela devem ser selecionadas para inclusao no resultado.
+   
+    
+   
+   2. `FROM users_emails`: Indica que a tabela "users_emails" sera usada como a origem dos dados para a consulta.
+   
+    
+   
+   3. `WHERE data_cadastro >= CURRENT_DATE - INTERVAL '7 days'`: Define uma condicao para filtrar os registros. Aqui, estamos verificando se a coluna "data_cadastro" e maior ou igual a data atual menos 7 dias. Isso garante que apenas os usuarios cadastrados nos ultimos 7 dias sejam selecionados.
+   
+    
+   
+   Assumindo que a coluna "data_cadastro" armazena a data de cadastro dos usuarios, essa consulta retornara todos os dados dos usuarios que se cadastraram nos ultimos 7 dias. Você pode usar o resultado dessa consulta para criar um relatorio com esses dados.</p>
+
+</body>
+</html>
+ 
